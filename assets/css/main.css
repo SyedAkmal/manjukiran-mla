@@ -1,0 +1,66 @@
+html,
+
+
+
+
+
+.pagination-wrap {
+	float: left;
+	width: 100%;
+	/*text-align: center;*/
+}
+
+     
+
+.pagination {
+	display: inline-block;
+	/*border: 1px solid #dadada;*/
+	border-radius: 0px;
+	margin: 15px 0px 25px 0px;
+}
+.pagination a,.pagination span {
+	float: left;
+	/*color: #333333;*/
+	font-size: 12px;
+	padding: 11px 14px;
+	position: relative;
+}
+.pagination a:before,.pagination a:after {
+	content: '';
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 0px;
+	width: 100%;
+	opacity: 0;
+}
+.pagination a:hover:before,.pagination a:hover:after {
+	opacity: 1;
+	height: 5px;
+}
+.pagination a:after {
+	top: auto;
+	bottom: 0px;
+}
+.pagination span,.pagination a:hover { background-color: #f3f3f3; }
+/* Default Widget */
+.kd-content .widget {
+	float: left;
+	width: 100%;
+	margin: 0px 0px 20px 0px;
+}
+
+.clearfix:after {
+   content: " "; /* Older browser do not support empty content */
+   visibility: hidden;
+   display: block;
+   height: 0;
+   clear: both;
+}
+
+.brands_holder_detail1 img {
+    width: 65%;    
+	vertical-align:middle;
+    /*text-align: center;*/
+}
+.home-img-slider img{ max-height: 369px; }
